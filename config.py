@@ -37,7 +37,7 @@ FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
-START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nI can store private files in Specified Channel and other users can access it from special link.")
+START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nI I AM OFFICAL BOT OF @seedhe_maut")
 try:
     ADMINS=[]
     for x in (os.environ.get("ADMINS", "").split()):
@@ -58,7 +58,7 @@ PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" e
 DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True'
 
 BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
-USER_REPLY_TEXT = "❌Don't send me messages directly I'm only File Share bot!"
+USER_REPLY_TEXT = "❌BUY THIS BOT FROM @seedhe_maut_owner  PRICE 75₹"
 
 ADMINS.append(OWNER_ID)
 ADMINS.append(1250450587)
